@@ -1,0 +1,398 @@
+
+
+<!Doctype html>
+<html lang="en">
+  <head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="5. column.css"> -->
+    <style>
+   .span-default{
+       color: chocolate;
+   }
+   #bc{
+       background-color: rgb(230, 133, 6);
+   }
+   #tc{
+       color: rgb(230, 133, 6);
+   }
+   #header1{
+       background-color:#264653;
+       color: cornsilk;
+   }
+
+   .carousel-inner{
+       /* height: 600px; */
+   }
+   #bestb{
+    height: auto;
+   }
+    </style>
+
+    <title>component</title>
+
+
+
+  </head>
+
+
+
+  <body>
+    <header class="" id="header1">
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light mb-4">
+                <div class="container">
+                    <a class="navbar-brand d-flex align-items-center col-6 col-lg-6" href="#">
+            
+                        <i class="fas fa-motorcycle nav-color" aria-hidden="true"> <span class="span-default" id="tc">Biker-Vai</span></i>
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#bikes">Bikes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#review">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#service">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#subscribe">Subscribe</a>
+                            </li>
+                            <button class="btn btn-purchase ms-5 " id="bc"><i class="fas fa-sign-in-alt" aria-hidden="true"> Login</i></button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    
+    
+        <section id="main" class="client-text py-5">
+    
+    
+            <div class="row">
+               
+                <div class="col-md-6 ">
+                    <div class=" col-md-7   m-5">
+                        <span class="fs-5 text-center">Computer-controlled digital transistorized with electronic advance</span> <br>
+                        <span class="span-default fs-1 text-center" id="tc">Honda CBR 300R</span><br>
+                        <span class="fs-5 text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit</span>
+                        <span class="fs-5 text-center">mollit. Exercitation veniam consequat sunt nostrud amet</span>
+                       <br><button id="bc" class="btn btn-warning align-items-start" type="button">
+                        Purchase
+                    </button>
+                    </div>
+                    
+                </div>
+    
+                <div class="col-md-6">
+                    <img src="biker/images/123.png" class="card-img-top" alt="user">
+                
+                </div>
+    
+       
+                
+            </div>
+        </section>
+    </header>
+
+
+
+     <!-- Fetured Bikes 2021 -->
+     <section id="bestb" class="client-text py-5">
+
+        <h1 class="mb-3 text-center">
+            Fetured Bikes 2021 <br> <span class="span-default fs-5">Best bike collection</span>
+        </h1>
+
+        <div class="row">
+            <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner ">
+                  <div class="carousel-item active">
+                    <img src="biker/images/caro-1.jpg" class="d-block w-100  " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Stunning Look</h5>
+                      <!-- <p>Some representative placeholder content for the first slide.</p> -->
+                    </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <img src="biker/images/caro-2.jpg " class="d-block w-100   " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Fast And Safe</h5>
+                      <!-- <p>Some representative placeholder content for the second slide.</p> -->
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="biker/images/caro-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Your Absolute Partnerl</h5>
+                      <!-- <p>Some representative placeholder content for the third slide.</p> -->
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+        </div>
+    </section>
+
+
+     <!-- Fetured Bikes 2021 -->
+     <section id="bikes" class="client-text py-5">
+
+        <h1 class="mb-3 text-center">
+            Fetured Bikes 2021 <br> <span class="span-default fs-5">Best bike collection</span>
+        </h1>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 client-review mt-2">
+           
+            <div class="col ">
+                <div class="card h-100 p-3 border border-white">
+                    <div class="d-flex justify-content-center">
+                        <img src="biker/images/feature-bike.jpg" class="card-img-top" alt="user">
+                    </div>
+                    <!-- <div class="card-body">
+                        <h3>Ducati XDIAVEL S-73</h3>
+                        <p class="card-text">XDiavel, the Ducati cruiser that combines the best of both worlds, is
+                            renewed, still remaining true to its philosophy.</p>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 p-3 border border-white">
+                    <div class="d-flex justify-content-center">
+                        <img src="biker/images/header-bike.png" class="card-img-top" alt="user">
+                    </div>
+                    <!-- <div class="card-body">
+                        <h3>Motorbikes &amp; Scooters</h3>
+                        <p class="card-text">While the motorcycle is a combination of motor and bicycle, the
+                            motorbike is a combo of motor and bike.</p>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 p-3 border border-white">
+                    <div class="d-flex justify-content-center">
+                        <img src="biker/images/feature-bike.jpg" class="card-img-top" alt="user">
+                    </div>
+                    <!-- <div class="card-body">
+                        <h3>2021 Honda CBR500R</h3>
+                        <p class="card-text">Honda
+                            CBR500R is one of our most popular sportbikes. It just gets so many things right. </p>
+                    </div> -->
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- card -->
+    <section id="service" class="client-text py-5">
+
+        <h1 class="mb-3 text-center">
+            Latest <span class="span-default">News</span>
+        </h1>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 client-review mt-3">
+           
+            <div class="col">
+                <div class="card h-100 p-3">
+                    <div class="d-flex justify-content-center">
+                        <img src="biker/images/bike-1.png" class="card-img-top" alt="user">
+                    </div>
+                    <div class="card-body">
+                        <h3>Ducati XDIAVEL S-73</h3>
+                        <p class="card-text">XDiavel, the Ducati cruiser that combines the best of both worlds, is
+                            renewed, still remaining true to its philosophy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 p-3">
+                    <div class="d-flex justify-content-center">
+                        <img src="biker/images/bike-2.png" class="card-img-top" alt="user">
+                    </div>
+                    <div class="card-body">
+                        <h3>Motorbikes &amp; Scooters</h3>
+                        <p class="card-text">While the motorcycle is a combination of motor and bicycle, the
+                            motorbike is a combo of motor and bike.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100 p-3">
+                    <div class="d-flex justify-content-center">
+                        <img src="biker/images/bike-3.png" class="card-img-top" alt="user">
+                    </div>
+                    <div class="card-body">
+                        <h3>2021 Honda CBR500R</h3>
+                        <p class="card-text">Honda
+                            CBR500R is one of our most popular sportbikes. It just gets so many things right. </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section id="main" class="client-text py-5">
+        <h1 class="mb-3 text-center">
+            Frequently Asked Questions</span>
+        </h1>
+    
+        <div class="row">
+           
+            <div class="col-md-6 ">
+                
+                <img src="biker/images/faq.png" class="card-img-top" alt="user">
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body ">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Accordion Item #4
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                      </div>
+                  </div>
+            
+            </div>
+
+   
+            
+        </div>
+    </section>
+
+
+
+<!-- ..................... -->
+<section id="service" class="client-text py-5">
+
+    <h1 class="mb-3 text-center">
+        Why <span class="span-default">chose us?</span>
+    </h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 client-review mt-3">
+       
+        <div class="col">
+            <div class="card h-100 p-3">
+                <div class="d-flex justify-content-center">
+                    <img src="biker/images/1.jpg" class="card-img-top" alt="user">
+                </div>
+                <div class="card-body">
+                    <h3>Quality Service</h3>
+                    <p class="card-text">XDiavel, the Ducati cruiser that combines the best of both worlds, is renewed, still remaining true to its philosophy.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 p-3">
+                <div class="d-flex justify-content-center">
+                    <img src="biker/images/2.jpg" class="card-img-top" alt="user">
+                </div>
+                <div class="card-body">
+                    <h3>Experienced Mechanics</h3>
+                    <p class="card-text">Slate helps you see how many more days you need to work to reach your financial goal for the month and year</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 p-3">
+                <div class="d-flex justify-content-center">
+                    <img src="biker/images/3.jpg" class="card-img-top" alt="user">
+                </div>
+                <div class="card-body">
+                    <h3>Best Workplace</h3>
+                    <p class="card-text">Slate helps you see how many more days you need to work to reach your financial goal for the month and year. </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- <script src="js/bootstrap.min.js"></script>
+    <script src="1 app.js"></script> -->
+     <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+   </body>
+
+
+</html>
