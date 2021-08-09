@@ -32,7 +32,7 @@
    #bestb{
     height: auto;
    }
-      html, body {
+ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -95,9 +95,29 @@
                         <span class="span-default fs-1 text-center" id="tc">Honda CBR 300R</span><br>
                         <span class="fs-5 text-center">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit</span>
                         <span class="fs-5 text-center">mollit. Exercitation veniam consequat sunt nostrud amet</span>
-                       <br><button id="bc" class="btn btn-warning align-items-start" type="button">
-                        Purchase
-                    </button>
+                       <!-- Button trigger modal -->
+<button id="bc" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Purchase
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-black" id="staticBackdropLabel">Want to buy?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-black">
+            You need around 5 lac bdt to afford this!!!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ok bye</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
                     </div>
                     
                 </div>
